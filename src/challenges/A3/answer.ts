@@ -10,11 +10,11 @@
 */
 
 // ↓ uncomment bellow lines and add your response!
-/*
+
 export default function ({ lastActivityDatetime, messages } : { lastActivityDatetime: string, messages: Message[] }): MessageWithUnread[] {
     return [];
 }
-*/
+
 
 // used interfaces, do not touch
 export interface Message {

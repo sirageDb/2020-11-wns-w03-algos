@@ -7,11 +7,22 @@
  */
 
 // ↓ uncomment bellow lines and add your response!
-/*
-export default function ({ students }: { students: Student[] }): Student[] {
-    return [];
+
+/* export default function ({ students }: { students: Student[] }): Student[] {
+    return students.sort((a: Student, b: Student) => {
+        if (a.age < b.age) {
+            return -1;
+        }
+        if (a.age > b.age) {
+            return 1;
+        }
+        if (a.age === b.age) {
+            return a.name.localeCompare(b.name);
+        }
+        return 0;
+    });
 }
-*/
+ */
 
 // used interfaces, do not touch
 export interface Student {
